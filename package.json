@@ -1,6 +1,6 @@
 {
   "name": "@hjbolide/australia-address-parser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Australia Street Address Parser",
   "main": "dist/parser.js",
   "types": "dist/parser.d.ts",

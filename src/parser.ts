@@ -483,6 +483,7 @@ interface Address {
   streetType2?: string;
   suburb?: string;
   state?: string;
+  postcode?: string;
 }
 
 interface AddressRegex {
