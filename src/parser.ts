@@ -1,4 +1,4 @@
-import * as XRegExp from 'xregexp';
+import XRegExp from 'xregexp';
 
 const StreetType = {
   ACCESS: 'ACCESS',

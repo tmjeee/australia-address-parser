@@ -2,8 +2,11 @@
   "name": "@hjbolide/australia-address-parser",
   "version": "1.0.1",
   "description": "Australia Street Address Parser",
-  "main": "src/parser.ts",
+  "main": "dist/parser.js",
+  "types": "dist/parser.d.ts",
   "scripts": {
+    "prepublish": "tsc",
+    "build": "tsc",
     "test": "jest"
   },
   "author": "Gordon Lam (https://github.com/gordonlkc)",

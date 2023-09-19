@@ -1,9 +1,16 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "target": "ES2019",
+    "target": "es5",
     "module": "CommonJS",
+    "lib": ["es2017", "es7", "es6", "dom"],
     "outDir": "./dist",
+    "strict": false,
+    "esModuleInterop": true,
     "baseUrl": "./"
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
