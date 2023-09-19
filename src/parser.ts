@@ -455,9 +455,7 @@ const StateCode = {
   "Western Australia": "WA"
 };
 
-
 const DirectionCode = {}
-
 
 const normalizeMap = {
   type: StreetType,
@@ -484,6 +482,7 @@ interface Address {
   streetType1?: string;
   streetType2?: string;
   suburb?: string;
+  state?: string;
 }
 
 interface AddressRegex {
