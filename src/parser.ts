@@ -464,7 +464,7 @@ const normalizeMap = {
   state: StateCode,
 };
 
-interface Address {
+export interface Address {
   streetName?: string;
   streetName1?: string;
   streetName2?: string;
