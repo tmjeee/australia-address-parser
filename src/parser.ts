@@ -697,10 +697,12 @@ export class Parser {
   }
 
   parseAddress(address: string): Address {
+    this.lazyInit();
     return this.executeParseAddress(address, this.addressRegex.address);
   }
 
   parseInformalAddress(address: string): Address {
+    this.lazyInit();
     return this.executeParseAddress(address, this.addressRegex.informalAddress);
   }
 
