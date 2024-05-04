@@ -1,6 +1,6 @@
 {
   "name": "@hjbolide/australia-address-parser",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Australia Street Address Parser",
   "main": "dist/parser.js",
   "types": "dist/parser.d.ts",
@@ -11,7 +11,8 @@
   },
   "author": "Gordon Lam (https://github.com/gordonlkc)",
   "contributors": [
-    "Charles Huang (https://github.com/hjbolide)"
+    "Charles Huang (https://github.com/hjbolide)",
+    "tmjee (https://github.com/tmjeee)"
   ],
   "license": "ISC",
   "dependencies": {
@@ -26,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hjbolide/australia-address-parser.git"
+    "url": "git+https://github.com/tmjeee/australia-address-parser.git"
   },
   "keywords": [
     "australia",
@@ -34,7 +35,7 @@
     "parser"
   ],
   "bugs": {
-    "url": "https://github.com/hjbolide/australia-address-parser/issues"
+    "url": "https://github.com/tmjeee/australia-address-parser/issues"
   },
-  "homepage": "https://github.com/hjbolide/australia-address-parser#readme"
+  "homepage": "https://github.com/tmjeee/australia-address-parser#readme"
 }
